@@ -26,3 +26,9 @@ void print_triangle(int leftCol, int size)
   }
 }
 
+// Prints an arrow whose left edge is at leftCol
+void print_arrow(int leftCol)
+{
+  print_triangle(2, 5);
+  print_square(2, 5);
+}
